@@ -1,0 +1,439 @@
+rank: 0 of 1 is here
+p_omp is 0
+Inp.nnz is 500000000
+Inp.a is 0
+Inp.b is 40
+Inp.Lmin is 0
+Inp.Lmax is 16
+Inp.Mmin is 0
+Inp.Mmax is 16
+Inp.Emax is 210
+Inp.N_b is 530
+states_chan is 261
+Inp.l_quantum is 0
+Inp.m_quantum is 0
+Inp.n_quantum is 1
+Inp.init_state is 0
+Inp.om is 50
+Inp.I0 is 5.61517e+09
+Inp.E0 is 400
+Inp.T_cycle is 15
+Inp.T_puls is 1.88496
+Inp.Tint is 0
+Inp.timesteps is 1000
+rank 0 states_chan_rank is 261
+rank 0 offset is 0
+rank 0 states_chan_rank_begin is 0
+rank 0 states_chan_rank_end is 261
+nnz is 500000000
+Row.capacity() is 500000000
+Row.max_size() is 2305843009213693951
+breakpoint"Bsplines generated"
+Time taken by the solver in l: 0 : 0.296seconds
+breakpoint"First set of psi"
+Time taken by the solver in l: 1 : 0.262seconds
+breakpoint"second set of psi"
+rank 0 l is 0
+Time taken by the solver in l: 2 : 0.265seconds
+breakpoint"Eigenstates generated"
+ind is 0
+ind2 is 0
+rank 0 l is 1
+Time taken by the solver in l: 3 : 0.251seconds
+breakpoint"Eigenstates generated"
+ind is 204624
+ind2 is 261
+rank 0 l is 2
+Time taken by the solver in l: 4 : 0.235seconds
+breakpoint"Eigenstates generated"
+ind is 818496
+ind2 is 1044
+rank 0 l is 3
+Time taken by the solver in l: 5 : 0.247seconds
+breakpoint"Eigenstates generated"
+ind is 1841616
+ind2 is 2349
+rank 0 l is 4
+Time taken by the solver in l: 6 : 0.238seconds
+breakpoint"Eigenstates generated"
+ind is 3273984
+ind2 is 4176
+rank 0 l is 5
+Time taken by the solver in l: 7 : 0.234seconds
+breakpoint"Eigenstates generated"
+ind is 5115600
+ind2 is 6525
+rank 0 l is 6
+Time taken by the solver in l: 8 : 0.235seconds
+breakpoint"Eigenstates generated"
+ind is 7366464
+ind2 is 9396
+rank 0 l is 7
+Time taken by the solver in l: 9 : 0.24seconds
+breakpoint"Eigenstates generated"
+ind is 10026576
+ind2 is 12789
+rank 0 l is 8
+Time taken by the solver in l: 10 : 0.234seconds
+breakpoint"Eigenstates generated"
+ind is 13095936
+ind2 is 16704
+rank 0 l is 9
+Time taken by the solver in l: 11 : 0.236seconds
+breakpoint"Eigenstates generated"
+ind is 16574544
+ind2 is 21141
+rank 0 l is 10
+Time taken by the solver in l: 12 : 0.249seconds
+breakpoint"Eigenstates generated"
+ind is 20462400
+ind2 is 26100
+rank 0 l is 11
+Time taken by the solver in l: 13 : 0.24seconds
+breakpoint"Eigenstates generated"
+ind is 24759504
+ind2 is 31581
+rank 0 l is 12
+Time taken by the solver in l: 14 : 0.234seconds
+breakpoint"Eigenstates generated"
+ind is 29465856
+ind2 is 37584
+rank 0 l is 13
+Time taken by the solver in l: 15 : 0.238seconds
+breakpoint"Eigenstates generated"
+ind is 34581456
+ind2 is 44109
+rank 0 l is 14
+Time taken by the solver in l: 16 : 0.234seconds
+breakpoint"Eigenstates generated"
+ind is 40106304
+ind2 is 51156
+rank 0 l is 15
+Time taken by the solver in l: 17 : 0.24seconds
+breakpoint"Eigenstates generated"
+ind is 46040400
+ind2 is 58725
+rank 0 l is 16
+Time taken by the solver in l: 18 : 0.239seconds
+breakpoint"Eigenstates generated"
+ind is 52383744
+ind2 is 66816
+nnz is 52392357
+i is 0
+nnz_ranks[i] is 52392357
+nnz_ranks_disp[i] is 0
+ind2 is 75429
+Begin to write file
+Time taken for generating the matrix: 38.478seconds
+rank 0 holds elemets: 52392357
+rank 0 dim is 75429
+rank 0 nnz_rank is 52392357
+decleration of variables finished
+start timepropagation
+Timesteps: 20
+y(0) is (0.999822,0.0188484)
+y(1) is (-1.09077e-08,-5.23705e-11)
+y(2) is (5.63647e-09,2.03458e-11)
+norm: 1
+Pinit: 1
+Timesteps: 40
+y(0) is (0.999289,0.0376902)
+y(1) is (-2.07953e-08,-1.77277e-09)
+y(2) is (1.07561e-08,9.10709e-10)
+norm: 1
+Pinit: 1
+Timesteps: 60
+y(0) is (0.998396,0.0565182)
+y(1) is (-2.47237e-06,-1.32976e-07)
+y(2) is (1.27796e-06,6.79345e-08)
+norm: 1
+Pinit: 0.999988
+Timesteps: 80
+y(0) is (0.997159,0.0753261)
+y(1) is (-5.73521e-08,-2.56306e-07)
+y(2) is (3.11196e-08,1.39284e-07)
+norm: 1
+Pinit: 1
+Timesteps: 100
+y(0) is (0.995526,0.0941031)
+y(1) is (-1.50401e-05,-2.0358e-06)
+y(2) is (7.77921e-06,1.06732e-06)
+norm: 1
+Pinit: 0.999928
+Timesteps: 120
+y(0) is (0.993589,0.112848)
+y(1) is (-9.3043e-06,-3.27926e-06)
+y(2) is (4.81699e-06,1.76181e-06)
+norm: 1
+Pinit: 0.999954
+Timesteps: 140
+y(0) is (0.991238,0.131547)
+y(1) is (-2.91593e-05,-6.50077e-06)
+y(2) is (1.50884e-05,3.41194e-06)
+norm: 1
+Pinit: 0.999858
+Timesteps: 160
+y(0) is (0.988468,0.150172)
+y(1) is (-7.70837e-05,-2.08944e-05)
+y(2) is (3.988e-05,1.10747e-05)
+norm: 1
+Pinit: 0.99962
+Timesteps: 180
+y(0) is (0.985635,0.168793)
+y(1) is (-4.30924e-06,-1.41728e-05)
+y(2) is (2.2835e-06,7.68662e-06)
+norm: 1
+Pinit: 0.999967
+Timesteps: 200
+y(0) is (0.981782,0.187227)
+y(1) is (-0.00021237,-6.01229e-05)
+y(2) is (0.000109842,3.15766e-05)
+norm: 1
+Pinit: 0.99895
+Timesteps: 220
+y(0) is (0.978456,0.205724)
+y(1) is (-5.30446e-05,-5.17041e-05)
+y(2) is (2.75251e-05,2.7901e-05)
+norm: 1
+Pinit: 0.999699
+Timesteps: 240
+y(0) is (0.974037,0.224021)
+y(1) is (-0.000207576,-9.43331e-05)
+y(2) is (0.000107503,4.99446e-05)
+norm: 1
+Pinit: 0.998933
+Timesteps: 260
+y(0) is (0.969237,0.24215)
+y(1) is (-0.000375951,-0.000174664)
+y(2) is (0.000194454,9.25422e-05)
+norm: 1
+Pinit: 0.998057
+Timesteps: 280
+y(0) is (0.965333,0.260534)
+y(1) is (-2.6081e-05,-0.000108959)
+y(2) is (1.37801e-05,5.90222e-05)
+norm: 1
+Pinit: 0.999745
+Timesteps: 300
+y(0) is (0.958579,0.278098)
+y(1) is (-0.000726929,-0.000348621)
+y(2) is (0.00037606,0.000183857)
+norm: 1
+Pinit: 0.996212
+Timesteps: 320
+y(0) is (0.954589,0.296398)
+y(1) is (-0.000126872,-0.000237062)
+y(2) is (6.58704e-05,0.000127984)
+norm: 1
+Pinit: 0.999093
+Timesteps: 340
+y(0) is (0.947777,0.313921)
+y(1) is (-0.000570938,-0.000403186)
+y(2) is (0.000295679,0.000213789)
+norm: 1
+Pinit: 0.996827
+Timesteps: 360
+y(0) is (0.941135,0.331276)
+y(1) is (-0.000800466,-0.000596438)
+y(2) is (0.000414048,0.000316817)
+norm: 1
+Pinit: 0.995478
+Timesteps: 380
+y(0) is (0.936518,0.349491)
+y(1) is (-4.53923e-05,-0.00037338)
+y(2) is (2.42613e-05,0.000202302)
+norm: 1
+Pinit: 0.999209
+Timesteps: 400
+y(0) is (0.926704,0.365688)
+y(1) is (-0.0013295,-0.000946748)
+y(2) is (0.000687609,0.000499991)
+norm: 1
+Pinit: 0.992508
+Timesteps: 420
+y(0) is (0.922435,0.383933)
+y(1) is (-0.000151319,-0.000605689)
+y(2) is (7.88805e-05,0.000327425)
+norm: 1
+Pinit: 0.998291
+Timesteps: 440
+y(0) is (0.913353,0.400396)
+y(1) is (-0.000858793,-0.000951312)
+y(2) is (0.000445185,0.000506054)
+norm: 1
+Pinit: 0.99453
+Timesteps: 460
+y(0) is (0.905172,0.416961)
+y(1) is (-0.00105002,-0.00119822)
+y(2) is (0.000543216,0.000637475)
+norm: 1
+Pinit: 0.993192
+Timesteps: 480
+y(0) is (0.899547,0.43491)
+y(1) is (-4.01618e-05,-0.000797073)
+y(2) is (2.2425e-05,0.000431517)
+norm: 1
+Pinit: 0.998331
+Timesteps: 500
+y(0) is (0.887713,0.449757)
+y(1) is (-0.00149923,-0.00163646)
+y(2) is (0.000776248,0.00086724)
+norm: 1
+Pinit: 0.990316
+Timesteps: 520
+y(0) is (0.882383,0.467817)
+y(1) is (-9.97488e-05,-0.00105969)
+y(2) is (5.32959e-05,0.000572895)
+norm: 1
+Pinit: 0.997452
+Timesteps: 540
+y(0) is (0.871647,0.483268)
+y(1) is (-0.000840959,-0.00150561)
+y(2) is (0.000437417,0.000803015)
+norm: 1
+Pinit: 0.993316
+Timesteps: 560
+y(0) is (0.862296,0.499158)
+y(1) is (-0.000867703,-0.00170152)
+y(2) is (0.000450929,0.000908526)
+norm: 1
+Pinit: 0.992712
+Timesteps: 580
+y(0) is (0.854813,0.516411)
+y(1) is (1.18687e-05,-0.00124591)
+y(2) is (-2.05332e-06,0.00067412)
+norm: 1
+Pinit: 0.997386
+Timesteps: 600
+y(0) is (0.842259,0.530534)
+y(1) is (-0.00110719,-0.00203018)
+y(2) is (0.000576371,0.00108031)
+norm: 1
+Pinit: 0.990867
+Timesteps: 620
+y(0) is (0.834759,0.547758)
+y(1) is (1.91516e-05,-0.00143665)
+y(2) is (-4.6608e-06,0.000776977)
+norm: 1
+Pinit: 0.996861
+Timesteps: 640
+y(0) is (0.823086,0.562472)
+y(1) is (-0.00048399,-0.00181287)
+y(2) is (0.000257036,0.000971363)
+norm: 1
+Pinit: 0.993846
+Timesteps: 660
+y(0) is (0.81248,0.577739)
+y(1) is (-0.000414068,-0.00187713)
+y(2) is (0.0002212,0.00100669)
+norm: 1
+Pinit: 0.993905
+Timesteps: 680
+y(0) is (0.802635,0.593723)
+y(1) is (9.30685e-05,-0.00155379)
+y(2) is (-3.88515e-05,0.000840442)
+norm: 1
+Pinit: 0.99673
+Timesteps: 700
+y(0) is (0.790053,0.607634)
+y(1) is (-0.000426384,-0.00201404)
+y(2) is (0.000230847,0.0010793)
+norm: 1
+Pinit: 0.993404
+Timesteps: 720
+y(0) is (0.779777,0.623343)
+y(1) is (0.000138273,-0.00163046)
+y(2) is (-5.95039e-05,0.000882342)
+norm: 1
+Pinit: 0.996609
+Timesteps: 740
+y(0) is (0.767383,0.637463)
+y(1) is (-6.98509e-05,-0.00182055)
+y(2) is (5.00292e-05,0.000980629)
+norm: 1
+Pinit: 0.995236
+Timesteps: 760
+y(0) is (0.75542,0.651855)
+y(1) is (1.90196e-05,-0.00180462)
+y(2) is (5.65827e-06,0.000973733)
+norm: 1
+Pinit: 0.995574
+Timesteps: 780
+y(0) is (0.743378,0.666286)
+y(1) is (0.000186021,-0.0016743)
+y(2) is (-7.85167e-05,0.000906737)
+norm: 1
+Pinit: 0.996549
+Timesteps: 800
+y(0) is (0.730383,0.679853)
+y(1) is (6.48165e-05,-0.00180812)
+y(2) is (-1.40779e-05,0.000976236)
+norm: 1
+Pinit: 0.995659
+Timesteps: 820
+y(0) is (0.717796,0.693804)
+y(1) is (0.000223967,-0.00168113)
+y(2) is (-9.42435e-05,0.000911335)
+norm: 1
+Pinit: 0.996595
+Timesteps: 840
+y(0) is (0.704495,0.707099)
+y(1) is (0.000190828,-0.00172569)
+y(2) is (-7.49512e-05,0.000934747)
+norm: 1
+Pinit: 0.996302
+Timesteps: 860
+y(0) is (0.691103,0.7203)
+y(1) is (0.00022465,-0.00170445)
+y(2) is (-9.04187e-05,0.000924157)
+norm: 1
+Pinit: 0.996456
+Timesteps: 880
+y(0) is (0.677449,0.733242)
+y(1) is (0.00025151,-0.00168507)
+y(2) is (-0.0001021,0.000914564)
+norm: 1
+Pinit: 0.996581
+Timesteps: 900
+y(0) is (0.663496,0.745859)
+y(1) is (0.000254238,-0.00169308)
+y(2) is (-0.000101345,0.000919188)
+norm: 1
+Pinit: 0.996532
+Timesteps: 920
+y(0) is (0.649343,0.758259)
+y(1) is (0.000272069,-0.00168043)
+y(2) is (-0.000108397,0.000913051)
+norm: 1
+Pinit: 0.996603
+Timesteps: 940
+y(0) is (0.634933,0.77036)
+y(1) is (0.000278719,-0.00168066)
+y(2) is (-0.000109661,0.000913606)
+norm: 1
+Pinit: 0.996594
+Timesteps: 960
+y(0) is (0.620303,0.782194)
+y(1) is (0.000288021,-0.00167803)
+y(2) is (-0.000112288,0.00091272)
+norm: 1
+Pinit: 0.996603
+Timesteps: 980
+y(0) is (0.60545,0.793747)
+y(1) is (0.00029594,-0.00167662)
+y(2) is (-0.000114207,0.000912463)
+norm: 1
+Pinit: 0.996603
+Timesteps: 1000
+y(0) is (0.590381,0.805017)
+y(1) is (0.000303842,-0.00167518)
+y(2) is (-0.000116121,0.000912209)
+norm: 1
+Pinit: 0.996603
+rank is 0
+Time taken by propagating the matrix: 378.187seconds
+Time taken by the matrixVector 342.198seconds
+Time taken by the reorthogonalization 14.532seconds
+fort.88 is written
+fort.89 is written
+rank is 0
