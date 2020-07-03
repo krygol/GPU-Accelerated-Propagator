@@ -11,7 +11,6 @@ interactions.
 GAP as a program is divided in four blocks. First a set of b-splines is generated. Then an
 eigenstate basis is formed. The Hamiltonian is then built in this eigenstate basis. The time
 evolution of the system is then done with the Lanczos propagator. 
-
 GAP is implemented in C++ making extensive use of the Eigen library. 
 
 ## Parallelization 
@@ -28,13 +27,13 @@ The code has been tested with the following version of the libraries:
 - CUDA 10.1
 - MKL 2020.1.217 
 - openMPI 4.0.2 (for the GPU version it has to be CUDA aware MPI)
+
 Different versions of the libraries might work but were not tested. 
 
 
 ## Input 
 
       name       data type               description                affect performance
-  ------------- ----------- -------------------------------------- --------------------
        nnz       int64_t    maximum number of nnz of Hamiltonian           yes
        om         double                photon energy                      no
        I0         double              intensity of laser                   no
@@ -52,11 +51,11 @@ Different versions of the libraries might work but were not tested.
       xComp        bool           if true then include xComp               no
        zft         int      if 1 polarization, if 2 propagation            yes
        xft         int      if 1 polarization, if 2 propagation            yes
-   l_quantum       int       l quantum number of initial state             no
-   m_quantum       int       m quantum number of initial state             no
-   n_quantum       int       n quantum number of initial state             no
+    l_quantum      int       l quantum number of initial state             no
+    m_quantum      int       m quantum number of initial state             no
+    n_quantum      int       n quantum number of initial state             no
     dim_kryl       int         dimension of the Krylov space               yes
-   Accelerator    string         accelerator [CPU,MKL,GPU,GPUFull]         yes
+    Accelerator   string         accelerator [CPU,MKL,GPU,GPUFull]         yes
 
 The parameters given in the table above are run time parameters and can be set as command line
 parameters using Lyra. The default parameters are in the InputParamter.h.
@@ -66,6 +65,8 @@ The Hamiltonian and the initial wave function have to be hard coded into GAP.
 - fort.88 contains the the element wise square of the wave function
 - fort.89 contains the wave function at the end of the the laser pulse
 
+
+## Documentation 
 Further information on the functioning of GAP can be found in the thesis in 'doc'.
 The thesis includes a performance study on GAP and a study of laser hydrogen interaction in the 800
 nm regime.
